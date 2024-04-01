@@ -11,7 +11,7 @@ public class PageCursos {
 
     public PageCursos(WebDriver driver) {
         this.driver = driver;
-        titleCurso = By.xpath("/html/body/div[3]/div[3]/div/div[3]/div/section/div/aside/section/div/div/div[1]/div[2]/div/div/div[1]/div/div/div[7]/div[1]/div/div/a/span[3]");
+        titleCurso = By.id("788");
     }
 
     public void assertLogonPage(){

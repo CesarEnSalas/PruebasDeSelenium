@@ -7,12 +7,10 @@ import org.openqa.selenium.WebDriver;
 public class PageLogin {
 
     private WebDriver driver;
-
     private By cookiesButtom;
     private By userField;
     private By passwordField;
     private By loginButtom;
-
     private Helpers helpers;
 
     public PageLogin(WebDriver driver){
